@@ -1,0 +1,21 @@
+{
+    "name": "Paytm_Payment_Gateway",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/app.js",
+    "scripts": {
+        "start": "./node_modules/.bin/netlify-lambda serve src",
+        "build": "./node_modules/.bin/netlify-lambda build src"
+    },
+    "engines": {
+        "node": "12.22.12"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "netlify-lambda": "^2.0.15",
+        "serverless-http": "^3.1.1"
+    }
+}
